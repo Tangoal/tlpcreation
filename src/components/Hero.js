@@ -6,7 +6,7 @@ export default function Hero() {
         <section id="hero">
             <div class="intro">
                 <h1>TLP Creation</h1>
-                <p>Site test</p>
+                <p>Site test2</p>
             </div>
         </section>
     )
