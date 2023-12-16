@@ -1,0 +1,99 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+
+@font-face {
+    /* font-family: Ethnocentric;
+    src: url("./assets/fonts/FontsFree-Net-ethnocentric-rg.ttf"); */
+}
+
+@font-face {
+    /* font-family: Proxima;
+    src: url("./assets/fonts/FontsFree-Net-Proxima-Nova-Sbold.otf"); */
+}
+
+body {
+    /* font-family: 'Proxima'; */
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-padding-top: 54px;
+    /* height of sticky header */
+    scroll-behavior: smooth;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    /* font-family: 'Ethnocentric'; */
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+h2 {
+    margin-bottom: 16px;
+}
+
+p {
+    line-height: 120%;
+    margin: 1em auto;
+    text-align: justify;
+    hyphens: auto;
+}
+
+i {
+    font-style: italic;
+}
+
+.section-bg-black {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.section-bg-white {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.container {
+    display: flex;
+    margin: 10px 30px;
+    gap: 30px;
+}
+
+.section {
+    max-width: 800px;
+    margin: auto;
+    padding: 64px 16px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .container,
+    .container-valeurs,
+    .container-contact,
+    .hero-content {
+        flex-direction: column;
+    }
+
+    .container-contact{
+        gap:18px;
+    }
+
+    h1 {
+        font-size: 130%;
+    }
+}

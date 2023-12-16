@@ -1,0 +1,47 @@
+.contact {
+    color: #000000;
+    max-width: 800px;
+    margin: auto;
+    padding: 64px 16px;
+}
+
+.container-contact {
+    display: flex;
+    margin: 10px 30px;
+}
+
+.container-contact>* {
+    flex: 1;
+}
+
+.section-contact h2 {
+    margin-top: 0;
+}
+
+.section-contact {
+    max-width: 800px;
+    margin: auto;
+    padding: 64px 16px;
+}
+
+/* Styles pour la section contact info */
+
+.info-contact {
+    align-items: center;
+}
+
+.info-contact img {
+    max-width: 25px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.info-contact p {
+    margin: auto 0;
+    text-align: left;
+}
+
+.icon-text {
+    display: flex;
+    margin: 20px;
+}
