@@ -10,22 +10,16 @@ export default function Legalite() {
                         <h1>Mentions Légales</h1>
                         <h2>Identité</h2>
 
-                        <p>Nom du site : Sefosa85</p>
-                        <p>Adresse du site : https://www.sefosa85.fr</p>
+                        <p>Nom du site : TLP Creation</p>
+                        <p>Adresse du site : https://www.tlpcreation.fr</p>
                         <p>Propriétaire :</p>
-                        <p>EI : DURAND Fabien – SIRET : 95121623300019</p>
-                        <p>contact@sefosa85.fr – 06 72 12 84 40</p>
+                        <p>EI : LE PORS Tanguy – SIRET : XXX</p>
+                        <p>contact@tlpcreation.fr – 06 09 93 27 96</p>
                         <p>Responsable de la publication :</p>
-                        <p>DURAND Fabien – contact@sefosa85.fr – 06 72 12 84 40</p>
+                        <p>LE PORS Tanguy – contact@tlpcreation.fr – 06 09 93 27 96</p>
                         <p>Hébergement du site : OVH SAS - 2 rue Kellermann - 59100 Roubaix - France</p>
                         <p>Crédits :</p>
-                        <p><a href="https://www.flaticon.com/fr/icones-gratuites/megaphone" title="mégaphone icônes" target="_blank">Megaphone icons created by BomSymbols - Flaticon</a></p>
-                        <p><a href="https://www.flaticon.com/free-icons/presentation" title="presentation icons" target="_blank">Presentation icons created by alkhalifi design - Flaticon</a></p>
-                        <p><a href="https://www.flaticon.com/free-icons/caregiver" title="caregiver icons" target="_blank">Caregiver icons created by ghost_icon - Flaticon</a></p>
-                        <p><a href="https://www.flaticon.com/free-icons/ui" title="ui icons" target="_blank">Ui icons created by chehuna - Flaticon</a></p>
-                        <p><a href="https://www.flaticon.com/free-icons/maps-and-location" title="maps and location icons" target="_blank">Maps and location icons created by Prosymbols Premium - Flaticon</a></p>
-                        <p><a href="https://www.flaticon.com/free-icons/telephone" title="telephone icons" target="_blank">Telephone icons created by Icon mania - Flaticon</a></p>
-                        <p><a href="https://www.flaticon.com/free-icons/envelope" title="envelope icons" target="_blank">Envelope icons created by Freepik - Flaticon</a></p>
+                        {/* <p><a href="https://www.flaticon.com/fr/icones-gratuites/megaphone" title="mégaphone icônes" target="_blank">Megaphone icons created by BomSymbols - Flaticon</a></p> */}
 
                         <h2>Conditions d’utilisation</h2>
 
