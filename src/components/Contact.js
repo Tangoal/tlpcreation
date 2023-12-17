@@ -8,7 +8,6 @@ import ContactForm from './ContactForm'
 export default function Contact() {
   return (
     <section id="contact">
-      <div class="section-bg-white">
         <div class="section-contact">
           <h2>Contact</h2>
           <div class="container-contact">
@@ -29,7 +28,6 @@ export default function Contact() {
             <ContactForm />
           </div>
         </div>
-      </div>
     </section>
   )
 }

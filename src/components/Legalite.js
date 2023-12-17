@@ -4,7 +4,6 @@ import './Legalite.css'
 export default function Legalite() {
     return (
         <section className="legal">
-            <div className="section-bg-white">
                 <div className="section">
                     <div className="container-legal">
                         <h1>Mentions Légales</h1>
@@ -71,7 +70,6 @@ export default function Legalite() {
                         <br />
                     </div>
                 </div>
-            </div>
         </section>
     )
 }

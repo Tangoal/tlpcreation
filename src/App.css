@@ -58,16 +58,6 @@ i {
     font-style: italic;
 }
 
-.section-bg-black {
-    background-color: #000000;
-    color: #ffffff;
-}
-
-.section-bg-white {
-    background-color: #ffffff;
-    color: #000000;
-}
-
 .container {
     display: flex;
     margin: 10px 30px;

@@ -1,16 +1,21 @@
 .sticky-bar {
+    z-index: 99;
+    height: 100vh;
+    max-width: 21em;
+    background-color: #111;
+    flex-direction: column;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    display: flex;
     position: sticky;
-    background-color: #000000;
-    text-align: center;
     top: 0;
-    padding: 15px;
 }
 
 .sticky-bar ul {
     list-style: none;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    padding-inline-start: 0;
+    flex-direction: column;
+    flex: 1;
+    display: flex;
 }
 
 .sticky-bar li {
@@ -20,12 +25,11 @@
 
 .sticky-bar ul li a {
     color: #ffffff;
-    transition: color 0.5s, margin-right 1s, margin-left 1s;
+    transition: color 0.5s, margin-left 1s;
     /* Durée de l'animation et propriétés affectées */
 }
 
 .sticky-bar ul li a:hover {
     color: #e5322b;
-    margin-right: 15px;
     margin-left: 15px;
 }

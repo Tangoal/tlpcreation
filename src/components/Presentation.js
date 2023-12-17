@@ -5,7 +5,6 @@ import profile_pic from ".//../assets/img/default.jpg"
 export default function Presentation() {
   return (
     <section id="presentation">
-      <div class="section-bg-white">
         <div class="section">
           <h2>Team</h2>
           <div class="container">
@@ -15,10 +14,8 @@ export default function Presentation() {
               <p>En créant SEFOSA, mon souhait est de permettre à chacun de se SEnsibiliser, avant même de se FOrmer, pour savoir comment SAuver un parent, un enfant, un ami, un collègue…</p>
             </div>
             <div class="presentation-img"><img src={profile_pic} loading="lazy" alt="Fabien Durand" /></div>
-
           </div>
         </div>
-      </div>
     </section>
   )
 }
