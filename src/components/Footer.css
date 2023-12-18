@@ -1,5 +1,5 @@
 footer {
-    background-color: #000000;
+    background-color: var(--primary-color);
     text-align: center;
     /* Centrer le contenu du footer horizontalement */
     padding-top: 20px;
@@ -34,10 +34,10 @@ footer p {
 }
 
 footer a {
-    color: #ffffff;
+    color: var(--secondary-color);
     transition: color 1s;
 }
 
 footer a:hover {
-    color: #e5322b;
+    color: var(--third-color);
 }

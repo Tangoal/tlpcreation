@@ -10,9 +10,6 @@ export default function Footer() {
                 <a href="https://www.linkedin.com/in/tanguy-le-pors" title="LinkedIn" target="_blank"><i className="fab fa-linkedin"></i></a>
                 <a href="" title="Instagram" target="_blank"><i className="fab fa-square-instagram"></i></a>
             </div>
-            <div className="footer-legal">
-                <p><Link to="/mentions-legales" title="Mentions Légales">Mentions Légales</Link></p>
-            </div>
         </footer>
     )
 }

@@ -1,35 +1,107 @@
-.sticky-bar {
+.sidebar {
     z-index: 99;
     height: 100vh;
     max-width: 21em;
     background-color: #111;
     flex-direction: column;
-    padding-left: 2.5em;
-    padding-right: 2.5em;
+    padding: 2.5em;
     display: flex;
     position: sticky;
     top: 0;
 }
 
-.sticky-bar ul {
-    list-style: none;
-    flex-direction: column;
-    flex: 1;
-    display: flex;
+.sidebarlogo img {
+    width: 100%;
 }
 
-.sticky-bar li {
-    display: inline;
-    margin: 0 10px;
+.sidebar-links {
+    margin: 2.5em;
 }
 
-.sticky-bar ul li a {
-    color: #ffffff;
-    transition: color 0.5s, margin-left 1s;
-    /* Durée de l'animation et propriétés affectées */
+.sidebar-links ul {
+    padding-inline-start: 0;
 }
 
-.sticky-bar ul li a:hover {
-    color: #e5322b;
-    margin-left: 15px;
+.sidebar-links li {
+    letter-spacing: 0.04rem;
+    margin: 1rem;
+    color: var(--secondary-color);
+}
+
+.active li {
+    position: relative;
+}
+
+.active li::after {
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 2px;
+    background-color: #EDE9DE;
+    bottom: -4px;
+    left: 0;
+    border-radius: 100px;
+}
+
+.menu-icon {
+    display: none;
+    margin: auto 3rem;
+    background: #022521;
+    cursor: pointer;
+    height: 1.7rem;
+    position: relative;
+}
+
+.bar {
+    width: 2rem;
+    height: 0.2rem;
+    background-color: #EDE9DE;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.menu-icon.open .bar:nth-child(2) {
+    transform: translate(-0.5rem, 0);
+}
+
+/* Responsivness */
+@media only screen and (max-width: 768px) {
+    .navbar {
+        justify-content: space-between;
+    }
+
+    .navbar-logo img {
+        max-width: 120px !important;
+        margin: auto 3rem !important;
+    }
+
+    .menu-icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .navbar-links {
+        display: none;
+        background-color: #022521;
+        position: absolute;
+        right: 0;
+    }
+
+    .navbar-links.open {
+        display: block;
+        top: 120px;
+        margin: 0;
+        border-bottom-left-radius: 1.6rem;
+    }
+
+    .navbar-links.open ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-links.open ul>* {
+        margin: 1rem;
+    }
 }
