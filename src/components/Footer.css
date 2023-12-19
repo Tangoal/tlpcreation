@@ -24,7 +24,7 @@ footer {
 }
 
 .footer-social i:hover {
-    color: #e5322b;
+    color: var(--third-color);
     /* Nouvelle couleur de texte au survol */
 }
 

@@ -13,8 +13,8 @@ export default function Presentation() {
         </div>
       </div>
       <div class="section">
-        <div class="grid">
-          <div className='box'>
+        <div class="home_grid">
+          <div className='home_box'>
             <div class="presentation-text">
               <p>TLP Creation vous accompagne pour toutes création de sites internet.</p>
               <p>Tanguy LE PORS</p>
@@ -22,8 +22,21 @@ export default function Presentation() {
             <div class="presentation-img"><img src={profile_pic} loading="lazy" alt="Tanguy Le Pors" />
             </div>
           </div>
-          <div className='box'></div>
-          <div className='box'></div>
+          <div className='home_box'>
+          <h3>Il nous font confiance :</h3>
+          </div>
+          <div className='home_box'>
+          <h3>Technologies utilisées :</h3>
+          <div class="techno_grid">
+          <div className='techno_box'></div>
+          <div className='techno_box'></div>
+          <div className='techno_box'></div>
+          <div className='techno_box'></div>
+          <div className='techno_box'></div>
+          <div className='techno_box'></div>
+          </div>
+
+          </div>
       </div>
       </div>
     </div>
