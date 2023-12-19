@@ -1,15 +1,18 @@
 .sidebar {
-    z-index: 99;
-    height: 100vh;
-    max-width: 21em;
+    position: sticky;
     background-color: #111;
-    flex-direction: column;
+    width: 30%;
+    max-width: 21em;
+    height: 100vh;
     padding: 2.5em;
     display: flex;
-    position: sticky;
-    top: 0;
+    flex-direction: column;
+    /* z-index: 99; */
+    /* top: 20; */
 }
 
+
+/*
 .sidebarlogo img {
     width: 100%;
 }
@@ -63,8 +66,10 @@
 .menu-icon.open .bar:nth-child(2) {
     transform: translate(-0.5rem, 0);
 }
+*/
 
-/* Responsivness */
+
+/* Responsivness 
 @media only screen and (max-width: 768px) {
     .navbar {
         justify-content: space-between;
@@ -104,4 +109,4 @@
     .navbar-links.open ul>* {
         margin: 1rem;
     }
-}
+}*/
