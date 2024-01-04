@@ -17,7 +17,7 @@ export default function Presentation() {
           <div className='box'>
             <div class="presentation-text">
               <p>TLP Creation vous accompagne pour toutes création de sites internet.</p>
-              <p>Tanguy LE PORS</p>
+              <p>Ingénieur de formation, Tanguy LE PORS vous propose.</p>
             </div>
             <div class="presentation-img"><img src={profile_pic} loading="lazy" alt="Tanguy Le Pors" />
             </div>
