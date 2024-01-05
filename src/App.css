@@ -6,9 +6,10 @@
 }
 
 :root {
-    --primary-color: #000000;
+    --primary-color: #111111;
     --secondary-color: #ffffff;
-    --third-color: orange;
+    --third-color: #9A48CC;
+    --object-color: #000000;
 }
 
 body {
