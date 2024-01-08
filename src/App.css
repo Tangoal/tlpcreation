@@ -8,9 +8,13 @@
 :root {
     --primary-color: #111111;
     --secondary-color: #ffffff;
-    --third-color: #9A48CC;
+    --third-color: #002394;
     --object-color: #000000;
 }
+
+/*
+var(--primary-color);
+*/
 
 body {
     font-family: 'Teko';

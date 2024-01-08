@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 import './Presentation.css'
+import PopupTypeForm from './PopupTypeForm'
 import profile_pic from ".//../assets/img/default.jpg"
 
 export default function Presentation() {
@@ -9,7 +10,7 @@ export default function Presentation() {
       <div class="section">
         <div className='header'>
           <h1>Créateur de sites internet</h1>
-          <p><NavLink to='/contact'>Demander un devis</NavLink></p>
+          <PopupTypeForm/>
         </div>
       </div>
       <div class="section">
