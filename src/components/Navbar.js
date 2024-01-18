@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css';
-import logo from "../assets/img/LOGO_TLP_11W.webp";
+import logo from "../assets/img/LOGO_TLP_square.png";
 
 export default function Navbar() {
     const [isMenuOpen, setMenuOpen] = useState(false);

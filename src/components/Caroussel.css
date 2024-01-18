@@ -1,0 +1,37 @@
+.container-caroussel {
+    width: 100%;
+    max-width: 450px;
+    max-height: 450px;
+    margin: 1.4rem auto;
+    overflow: hidden;
+    border: 0.0625rem solid rgba(255, 255, 255, 0.2);
+    border-radius: 0.625em;
+}
+
+.caroussel {
+    display: flex;
+    animation: defilement 10s infinite ease-in-out;
+    
+}
+
+.caroussel img {
+    flex-shrink: 0;
+    width: 100%;
+}
+
+@keyframes defilement {
+
+    0%,
+    25% {
+        transform: translateX(0);
+    }
+
+    50%,
+    75% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(-200%);
+    }
+}
