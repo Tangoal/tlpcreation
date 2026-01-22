@@ -1,0 +1,11 @@
+services:
+  tlpcreation:
+    build: .
+    container_name: tlpcreation
+    restart: always
+    networks:
+      - gateway
+
+networks:
+  gateway:
+    external: true
