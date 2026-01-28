@@ -2,7 +2,7 @@ services:
   tlpcreation:
     build: .
     container_name: tlpcreation
-    restart: always
+    restart: unless-stopped
     networks:
       - gateway
 
